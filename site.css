@@ -69,8 +69,13 @@ h1, h2 {
     }
 
     .id li {
-        padding: 0 5px;
         border-width: 1px;
+        padding: 0.25em;
+    }
+}
+
+@media (max-width: 780px) {
+    .id li {
         padding: 0.25em;
     }
 }
