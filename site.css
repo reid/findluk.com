@@ -83,11 +83,11 @@ h1, h2 {
     }
 }
 
-/* see-also */
+/* is-print-hidden */
 
 @media print {
-    .see-also {
-        display: none;
+    .is-print-hidden {
+        display: none !important;
     }
 }
 
